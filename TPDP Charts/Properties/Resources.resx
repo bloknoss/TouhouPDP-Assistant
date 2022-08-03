@@ -1,0 +1,1481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;table class="wikitable floatleft" border="1" cellspacing="0px" cellpadding="2px"&gt;
+
+&lt;tbody&gt;&lt;tr align="center"&gt;
+&lt;td&gt;A/D
+&lt;/td&gt;
+&lt;th width="26px" style="background: #FFBBE6; color: #000000;"&gt;Voi
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FF4949; color: #000000;"&gt;Fir
+&lt;/th&gt;
+&lt;th width="26px" style="background: #6884FF; color: #000000;"&gt;Wtr
+&lt;/th&gt;
+&lt;th width="26px" style="background: #57DC4D; color: #000000;"&gt;Ntr
+&lt;/th&gt;
+&lt;th width="26px" style="background: #C18458; color: #000000;"&gt;Ear
+&lt;/th&gt;
+&lt;th width="26px" style="background: #A2A2A2; color: #000000;"&gt;Stl
+&lt;/th&gt;
+&lt;th width="26px" style="background: #C1FF71; color: #000000;"&gt;Wnd
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FF8D1E; color: #000000;"&gt;Ele
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FEE85A; color: #000000;"&gt;Lgt
+&lt;/th&gt;
+&lt;th width="26px" style="background: #585858; color: #EEEEEE;"&gt;Drk
+&lt;/th&gt;
+&lt;th width="26px" style="background: #675173; color: #EEEEEE;"&gt;Nth
+&lt;/th&gt;
+&lt;th width="26px" style="background: #AE66FF; color: #EEEEEE;"&gt;Psn
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FF6B22; color: #000000;"&gt;Fgt
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FF71E9; color: #000000;"&gt;Ilu
+&lt;/th&gt;
+&lt;th width="26px" style="background: #FFB400; color: #000000;"&gt;Snd
+&lt;/th&gt;
+&lt;th width="26px" style="background: #3A62C4; color: #EEEEEE;"&gt;Wrp
+&lt;/th&gt;
+&lt;th width="26px" style="background: #F75B97; color: #000000;"&gt;Drm
+&lt;/th&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FFBBE6; color: #000000;;"&gt;Void
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FF4949; color: #000000;;"&gt;Fire
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #6884FF; color: #000000;;"&gt;Water
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #57DC4D; color: #000000;;"&gt;Nature
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #C18458; color: #000000;;"&gt;Earth
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #A2A2A2; color: #000000;;"&gt;Steel
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #C1FF71; color: #000000;;"&gt;Wind
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FF8D1E; color: #000000;;"&gt;Electric
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FEE85A; color: #000000;;"&gt;Light
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #585858; color: #EEEEEE;;"&gt;Dark
+&lt;/th&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #675173; color: #EEEEEE;;"&gt;Nether
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #AE66FF; color: #EEEEEE;;"&gt;Poison
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FF6B22; color: #000000;;"&gt;Fighting
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FF71E9; color: #000000;;"&gt;Illusion
+&lt;/th&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #FFB400; color: #000000;;"&gt;Sound
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #3A62C4; color: #EEEEEE;;"&gt;Warped
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;
+&lt;td style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;th style="background: #F75B97; color: #000000;;"&gt;Dream
+&lt;/th&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table class="wikitable" border="1" cellpadding="2px" cellspacing="0"&gt;
+
+&lt;tbody&gt;&lt;tr align="center"&gt;
+&lt;th colspan="2" style="background-color: #DDDDDD;"&gt;Key
+&lt;/th&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;td width="150px" style="color: #FF0000;"&gt;&lt;b&gt;Super Effective&lt;/b&gt;&lt;br /&gt;(2x)&lt;/td&gt;
+&lt;td width="26px" style="color: #FF0000;"&gt;&lt;b&gt;O&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;Not Very Effective&lt;/b&gt;&lt;br /&gt;(0.5x)&lt;/td&gt;
+&lt;td style="color: #0000FF;"&gt;&lt;b&gt;△&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr align="center"&gt;
+&lt;td&gt;&lt;b&gt;No Effect&lt;/b&gt;&lt;br /&gt;(0x)&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;X&lt;/b&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Phlegmatic" title="Phlegmatic"&gt;Phlegmatic&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The weather becomes Calm.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sanguine" title="Sanguine"&gt;Sanguine&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The weather becomes Aurora.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Melancholic" title="Melancholic"&gt;Melancholic&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The weather becomes Heavy Fog.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Choleric" title="Choleric"&gt;Choleric&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The weather becomes Dust Storm.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Supine" title="Supine"&gt;Supine&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The weather becomes Sun Shower.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sand_Mask" title="Sand Mask"&gt;Sand Mask&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During dust storm, Evasion is increased. No sand damage is received..
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sand_Force" title="Sand Force"&gt;Sand Force&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During dust storm, Fo.Atk is boosted by 30%. No sand damage is received
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sand_Devil" title="Sand Devil"&gt;Sand Devil&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During dust storm, Speed is doubled. No sand damage is received.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Flash" title="Flash"&gt;Flash&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During aurora, Speed is doubled.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Aurora_Grace" title="Aurora Grace"&gt;Aurora Grace&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During aurora, Sp.Def is increased by 50% and some HP is restored at the end of every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Light_Curtain" title="Light Curtain"&gt;Light Curtain&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During aurora, you're immune to confusion and status ailments are healed at the end of every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Fog_Traveler" title="Fog Traveler"&gt;Fog Traveler&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During heavy fog, Speed is doubled.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Surprise_Tactics" title="Surprise Tactics"&gt;Surprise Tactics&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During heavy fog, SpAtk is boosted by 50%. Damage is received at the end of the turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Vanishing_Act" title="Vanishing Act"&gt;Vanishing Act&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During heavy fog, evasion is increased.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Recalibration" title="Recalibration"&gt;Recalibration&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During calm, SpAtk and SpDef are boosted by 50%.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Zen" title="Zen"&gt;Zen&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During calm, the user is immune to status ailments and recovers some HP at the end of every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Breather" title="Breather"&gt;Breather&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During calm, Fo.Def is increased by 50% and some HP is restored at the end of every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Economist" title="Economist"&gt;Economist&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Charms may be restored after use. During calm, you will always restore them.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Strange_Rainbow" title="Strange Rainbow"&gt;Strange Rainbow&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Boosts FoAtk by 30% during Sunshower.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Fox%27s_Wedding" title="Fox&amp;#39;s Wedding"&gt;Fox's Wedding&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Doubles Speed during Sunshower.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Divine_Festival" title="Divine Festival"&gt;Divine Festival&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Status ailments are cured at the end of every turn during Sunshower.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Weather_Resist" title="Weather Resist"&gt;Weather Resist&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;This Puppet is immune to the effects of weather.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Boundary_Blurrer" title="Boundary Blurrer"&gt;Boundary Blurrer&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During weather effects, FoAtk, FoDef, SpAtk, and SpDef are doubled.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Stargazer" title="Stargazer"&gt;Stargazer&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Weather skills last forever.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Timegazer" title="Timegazer"&gt;Timegazer&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Terrain skills last 8 turns.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Boundary_Savior" title="Boundary Savior"&gt;Boundary Savior&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During terrain effects, FoDef and SpDef are doubled. Will also recover from ailments at the end of each turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Northern_Expanse" title="Northern Expanse"&gt;Northern Expanse&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During Genbu, speed is halved.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Southern_Expanse" title="Southern Expanse"&gt;Southern Expanse&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During Suzaku, your HP will recover a little bit each turn, ignoring Suzaku's effect.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Western_Expanse" title="Western Expanse"&gt;Western Expanse&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During Byakko, 100 acc skills power increases by 20%, no-miss skills power increases by 50%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Eastern_Expanse" title="Eastern Expanse"&gt;Eastern Expanse&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During Seiryu, same-type skills are 33% stronger.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Central_Expanse" title="Central Expanse"&gt;Central Expanse&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;During Kohryu, your skills ignore the foe's ability. The user may also use held items and Quick Eye.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Gentei%27s_Water" title="Gentei&amp;#39;s Water"&gt;Gentei's Water&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Water skills are 50% more powerful during Genbu. Earth-skill damage is halved.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sutei%27s_Fire" title="Sutei&amp;#39;s Fire"&gt;Sutei's Fire&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Fire skills are 50% more powerful during Suzaku. Water-skill damage is halved.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Byakutei%27s_Metal" title="Byakutei&amp;#39;s Metal"&gt;Byakutei's Metal&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Steel skills are 50% more powerful during Byakko. Fire-skill damage is halved.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Seitei%27s_Wood" title="Seitei&amp;#39;s Wood"&gt;Seitei's Wood&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Nature skills are 50% more powerful during Seiryu. Steel-skill damage is halved.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Koutei%27s_Earth" title="Koutei&amp;#39;s Earth"&gt;Koutei's Earth&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Earth skills are 50% more powerful during Kohryu. Nature-skill damage is halved.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Benefit_of_Fire" title="Benefit of Fire"&gt;Benefit of Fire&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Fire-type skill, HP is restored.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Grace_of_Water" title="Grace of Water"&gt;Grace of Water&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Water-type skill, HP is restored.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Force_of_Nature" title="Force of Nature"&gt;Force of Nature&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Nature-type skill, damage is nullified and SpAtk is raised.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Air_Cushion" title="Air Cushion"&gt;Air Cushion&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an Earth-type skill, damage is nullified. Ignores Adverse Wind ability. Ignores mine/poison trap.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Metallurgy" title="Metallurgy"&gt;Metallurgy&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Steel-type skill, damage is nullified and FoAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Smooth_Sailing" title="Smooth Sailing"&gt;Smooth Sailing&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Wind-type skill, damage is nullified and Speed is raised.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Electromagnetic" title="Electromagnetic"&gt;Electromagnetic&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an Electric-type skill, damage is nullified and SpAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Absorbent" title="Absorbent"&gt;Absorbent&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Light-type skill, damage is nullified and SpAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Cloak_of_Darkness" title="Cloak of Darkness"&gt;Cloak of Darkness&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Restores HP when hit by a Dark-type skill and takes Damage against Light-type skills.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Negative_Aura" title="Negative Aura"&gt;Negative Aura&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Dark-type skill, damage is nullified and FoAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Self_Exorcism" title="Self Exorcism"&gt;Self Exorcism&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Nether-type skill FoAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Appeased_Spirit" title="Appeased Spirit"&gt;Appeased Spirit&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Nether-type skill, HP is restored.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Strict_Dosage" title="Strict Dosage"&gt;Strict Dosage&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Poison-type skill, HP is restored. Ignores poison trap. Ignores Poison Labyrinth ability.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Master%27s_Defense" title="Master&amp;#39;s Defense"&gt;Master's Defense&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Fighting-type skill, damage is nullified and FoAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Unwavering_Heart" title="Unwavering Heart"&gt;Unwavering Heart&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an Illusion-type skill, damage is nullified and any status ailment is cured.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sound_Absorb" title="Sound Absorb"&gt;Sound Absorb&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Sound-type skill, damage is nullified, FoAtk is raised, and SpAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/In_Sync" title="In Sync"&gt;In Sync&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an Warped-type skill, damage is nullified and any status ailment is cured.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Spirit_of_Yang" title="Spirit of Yang"&gt;Spirit of Yang&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an Electric, Light, or Illusion-type skill, Speed is raised.
+&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Spirit_of_Yin" title="Spirit of Yin"&gt;Spirit of Yin&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Dark, Nether, or Poison-type skill, Speed is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Inverse_Reaction" title="Inverse Reaction"&gt;Inverse Reaction&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a Light or Dark-type skill only half the damage is taken.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Common_Senseless" title="Common Senseless"&gt;Common Senseless&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Ignores type immunities when attacking.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Shadow_Stitch" title="Shadow Stitch"&gt;Shadow Stitch&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The opponent cannot flee or swap Puppets.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Battle_Mania" title="Battle Mania"&gt;Battle Mania&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponents that are Fighting-type cannot flee or swap out.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Stream_Form" title="Stream Form"&gt;Stream Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Water-type skills.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Natural_Form" title="Natural Form"&gt;Natural Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Nature-type skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Unyielding_Form" title="Unyielding Form"&gt;Unyielding Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Steel-type skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Gale_Form" title="Gale Form"&gt;Gale Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Wind-type skills.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Bright_Form" title="Bright Form"&gt;Bright Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Light-type skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Midnight_Form" title="Midnight Form"&gt;Midnight Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Dark-type skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Ghost_Form" title="Ghost Form"&gt;Ghost Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Void-type skills are treated as Nether-type skills.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Antibody" title="Antibody"&gt;Antibody&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to Poison and Heavy Poison statuses.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Cleared_Mind" title="Cleared Mind"&gt;Cleared Mind&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to Burn and Heavy Burn statuses.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Active" title="Active"&gt;Active&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to Stop status.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Immovable" title="Immovable"&gt;Immovable&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to flinching.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Flexible" title="Flexible"&gt;Flexible&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to Paralysis and Shock statuses.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Optimist" title="Optimist"&gt;Optimist&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to confusion.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Composed" title="Composed"&gt;Composed&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to Upbeat.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Free_Will" title="Free Will"&gt;Free Will&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Immune to skill usage restrictions.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Resonance" title="Resonance"&gt;Resonance&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Status ailments are reflected onto opponents when inflicted.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Gale" title="Gale"&gt;Gale&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When inflicted with an ailment, Speed is boosted 50%. Speed drop from paralysis is ignored.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Last_Defense" title="Last Defense"&gt;Last Defense&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When inflicted with an ailment, FoDef is boosted by 50%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Pride" title="Pride"&gt;Pride&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When inflicted with an ailment, SpAtk  is boosted 50%. SpAtk drop from Fear is ignored.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Mind%27s_Eye" title="Mind&amp;#39;s Eye"&gt;Mind's Eye&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When inflicted with a status FoAtk is boosted by 50%. FoAtk drop from blindness is ignored.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Desperation" title="Desperation"&gt;Desperation&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When poisoned, FoAtk is boosted by 50%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Inverse_Toxin" title="Inverse Toxin"&gt;Inverse Toxin&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When poisoned, HP is restored instead of lost. Ignores Poison Labyrinth ability.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Vigorous" title="Vigorous"&gt;Vigorous&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Takes half the turns to return from stop status.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Maintenance" title="Maintenance"&gt;Maintenance&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;30% chance to heal from ailments every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Deploy_Smoke" title="Deploy Smoke"&gt;Deploy Smoke&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Lowers the opponent's FoAtk upon switch in.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Warning_Shot" title="Warning Shot"&gt;Warning Shot&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Lowers the opponent's SpAtk upon switch in.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Projection_(Ability)" title="Projection (Ability)"&gt;Projection&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Copies your opponent's ability during battle.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Aggressive" title="Aggressive"&gt;Aggressive&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Adjusts offensive stats based on the foe's defensive stats.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sixth_Sense" title="Sixth Sense"&gt;Sixth Sense&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Notifies you of barrier-penetrating skills your foe knows.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Quick_Eye" title="Quick Eye"&gt;Quick Eye&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Allows you to see the held item and ability of the opponent.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Some_Guts" title="Some Guts"&gt;Some Guts&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damage the opponent after receiving an attack of 90 or more BP.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Karmic_Retribution" title="Karmic Retribution"&gt;Karmic Retribution&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damage the opponent after receiving an attack of 90 or more BP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Hate_Incarnate" title="Hate Incarnate"&gt;Hate Incarnate&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damage the opponent if fainting is caused by an attack of 70 or more BP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Poison_Body" title="Poison Body"&gt;Poison Body&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;After an attack, the opponent has a 30% chance to become poisoned.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Poison_Thorns" title="Poison Thorns"&gt;Poison Thorns&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has 30% chance to become poisoned from any attack.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Flaming_Garment" title="Flaming Garment"&gt;Flaming Garment&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has a 30% chance to become burned from any attack.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Electrification" title="Electrification"&gt;Electrification&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has 30% chance to become paralyzed from any attack.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Chaos_Induction" title="Chaos Induction"&gt;Chaos Induction&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has a 30% chance to become confused from any attack.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sermon" title="Sermon"&gt;Sermon&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has a 30% chance to become weakened from any attack.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Dark_Force" title="Dark Force"&gt;Dark Force&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has 10% chance to become blinded from their focus attacks.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Strong_Smile" title="Strong Smile"&gt;Strong Smile&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent has a 10% chance to become afraid from their spread attacks.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Discourager" title="Discourager"&gt;Discourager&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Reduces the opponent's FoAtk when hit by a skill that your barrier resists.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Disturber" title="Disturber"&gt;Disturber&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Reduces the foe's FoAtk or SpAtk when hit by a skill that your barrier resists.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Jamming" title="Jamming"&gt;Jamming&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Reduces the opponent's Speed after receiving an attack of 80 or more BP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Infectious" title="Infectious"&gt;Infectious&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Spreads Infection through attacks that are below 95 BP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Armor_Purge" title="Armor Purge"&gt;Armor Purge&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by a FoAtk, FoDef decreases and Speed increases.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Insight" title="Insight"&gt;Insight&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Easier to score critical hits.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sniper" title="Sniper"&gt;Sniper&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Boosts the strength of critical hits.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Hot_Head" title="Hot Head"&gt;Hot Head&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;FoAtk is increased after taking a critical hit.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Recoil_Offset" title="Recoil Offset"&gt;Recoil Offset&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Does not receive recoil damage.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Reckless" title="Reckless"&gt;Reckless&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damage dealt and recoil received by a recoil move is boosted by 20%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Wasteful" title="Wasteful"&gt;Wasteful&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Effects of held items are ignored.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Nimble" title="Nimble"&gt;Nimble&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When a held charm is lost or consumed speed is doubled.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Collectomaniac" title="Collectomaniac"&gt;Collectomaniac&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;If no item is held and you receive damage, you may take the foe's held item. Held items cannot be stolen.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Overwhelm" title="Overwhelm"&gt;Overwhelm&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Enemy Puppets cannot use charms.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Worrywart" title="Worrywart"&gt;Worrywart&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When HP is less than half the held charm is used.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Assault" title="Assault"&gt;Assault&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attacks have a 10% chance of causing flinching.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Lucky" title="Lucky"&gt;Lucky&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Secondary effects of skills have double the chance of occurring.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Charge!" title="Charge!"&gt;Charge!&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attack damage is boosted by 30%, but their secondary effects never occur.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Divine_Protection" title="Divine Protection"&gt;Divine Protection&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Stats cannot be lowered by the enemy.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Sore_Loser" title="Sore Loser"&gt;Sore Loser&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When a stat is decreased FoAtk is raised sharply.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Positive" title="Positive"&gt;Positive&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When a stat is decreased SpAtk is raised sharply.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Usurpation" title="Usurpation"&gt;Usurpation&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Inverts the stat changes.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Wisdom_Eye" title="Wisdom Eye"&gt;Wisdom Eye&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attacks ignore the opponent's stat gains other than speed.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Drunkard" title="Drunkard"&gt;Drunkard&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Cannot attack consecutively, however it ignores the foe's ability.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Placid" title="Placid"&gt;Placid&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;For 5 turns &lt;a href="/wiki/Power_Yukari" title="Power Yukari"&gt;Power Yukari&lt;/a&gt;'s SpAtk and Speed are cut in half. Ability changes to &lt;a href="/wiki/Serious" title="Serious"&gt;Serious&lt;/a&gt;, afterwards.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Serious" title="Serious"&gt;Serious&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href="/wiki/Power_Yukari" title="Power Yukari"&gt;Power Yukari&lt;/a&gt;'s SpAtk and Speed increase one stage every turn.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/True_Admin" title="True Admin"&gt;True Admin&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When HP is less than half FoAtk and SpAtk are halved.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Slow_Tempo" title="Slow Tempo"&gt;Slow Tempo&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Always attacks second but receive 10% less damage.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Curiosity" title="Curiosity"&gt;Curiosity&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Support skills receive +1 to their priority.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Brutality" title="Brutality"&gt;Brutality&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;SpAtk is boosted by 50% but accuracy is cut by 20%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Daredevil" title="Daredevil"&gt;Daredevil&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;FoAtk is boosted by 50% but accuracy is cut by 20%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Forward_Dash" title="Forward Dash"&gt;Forward Dash&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The power of spread skills are doubled.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Telescopic" title="Telescopic"&gt;Telescopic&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Accuracy is boosted by 30%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Duel" title="Duel"&gt;Duel&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Neither you nor your opponent will be able to miss.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Precise_Aim" title="Precise Aim"&gt;Precise Aim&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Accuracy cannot be lowered. Ignores the foe's Evasion modifiers. Never-miss attacks are 50% stronger.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Infinite_Changes" title="Infinite Changes"&gt;Infinite Changes&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Changes type to match skill immediately before use.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Hobgoblin" title="Hobgoblin"&gt;Hobgoblin&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Changes appearance to match that of the last Puppet in the party. Reverts after taking a hit.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/After_Move" title="After Move"&gt;After Move&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attack power is boosted by 30% when moving second.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Infiltration" title="Infiltration"&gt;Infiltration&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attacks ignore defensive fields.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Salvo" title="Salvo"&gt;Salvo&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Multi-Hit attacks always hit the maximum amount of times.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Niche" title="Niche"&gt;Niche&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The power boost from same-type attacks is even higher.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Morale_Boost" title="Morale Boost"&gt;Morale Boost&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When an opponent is KO'd, FoAtk is raised.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Strategist" title="Strategist"&gt;Strategist&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attacks with a base power of 60 or below are boosted by 50%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Skilled_Hand" title="Skilled Hand"&gt;Skilled Hand&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Ignores the resistances of enemy barriers.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Unbound" title="Unbound"&gt;Unbound&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attacks ignore the foe's ability.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Up_Tempo" title="Up Tempo"&gt;Up Tempo&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Speed increases every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Indomitable" title="Indomitable"&gt;Indomitable&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Cannot be OHKO'd. Will not receive critical hits either.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Stubborn" title="Stubborn"&gt;Stubborn&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Cannot be OHKO'd. Neither of you can use certain skills either.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Imposing_Stance" title="Imposing Stance"&gt;Imposing Stance&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damage is only received from skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Glamorous" title="Glamorous"&gt;Glamorous&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Reduces damage of attacks that penetrate your barrier.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Emergency_Cure" title="Emergency Cure"&gt;Emergency Cure&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Recovers from status ailments when switching out.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Healing_Power" title="Healing Power"&gt;Healing Power&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Recovers 1/3 of maximum HP when switching out.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Iron_Resolve" title="Iron Resolve"&gt;Iron Resolve&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Cannot be forced to switch out.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Peaceful" title="Peaceful"&gt;Peaceful&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Can always escape from battle. Trumps other locking abilities.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Bad_Medicine" title="Bad Medicine"&gt;Bad Medicine&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Enemies will be hurt when they try to use HP leaching skills on you. Ignores Poison Labyrinth ability.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Curse_Return" title="Curse Return"&gt;Curse Return&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Reflects the effects of status skills back on the attacker.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Poker_Face" title="Poker Face"&gt;Poker Face&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Ignores the secondary skill effects from attackers.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Yata_no_Kagami" title="Yata no Kagami"&gt;Yata no Kagami&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Takes half damage when at full HP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Moody" title="Moody"&gt;Moody&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Every turn one random stat rises sharply and one random stat falls.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Suppression" title="Suppression"&gt;Suppression&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When hit by an enemy skill there is a 30% chance to seal it.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Unjustness" title="Unjustness"&gt;Unjustness&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The enemy's SP consumption is increased by +1.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Good_Management" title="Good Management"&gt;Good Management&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Stat changes from skills and hold items are doubled.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Were-Hakutaku" title="Were-Hakutaku"&gt;Were-Hakutaku&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When &lt;a href="/wiki/Defense_Keine" title="Defense Keine"&gt;Defense Keine&lt;/a&gt; HP is less than half your form is changed.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Flawless" title="Flawless"&gt;Flawless&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Evasion against status and stat changing skills is increased.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Unique_Shield" title="Unique Shield"&gt;Unique Shield&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Only receive half damage from Focus Attacks.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Auto_Heal" title="Auto Heal"&gt;Auto Heal&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;HP recovers every turn while not inflicted with a status ailment.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Miracle_Mallet" title="Miracle Mallet"&gt;Miracle Mallet&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href="/wiki/Defense_Sukuna" title="Defense Sukuna"&gt;Defense Sukunas&lt;/a&gt; FoAtk and FoDef are doubled.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Instant_Win" title="Instant Win"&gt;Instant Win&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Your speed is increased by 50% on the first turn after entering the field.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/First_Hit" title="First Hit"&gt;First Hit&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Attack power is boosted by 20% when moving first.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Ascertainment" title="Ascertainment"&gt;Ascertainment&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent's Ability does not boost their attacks.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/On_the_Edge" title="On the Edge"&gt;On the Edge&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;At 1 HP, Speed is tripled and attacks do 30% more damage.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Invalidate" title="Invalidate"&gt;Invalidate&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Removes the opponent's Ability on entry.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Intuition" title="Intuition"&gt;Intuition&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Blocks increased priority skills.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Flat_Speed" title="Flat Speed"&gt;Flat Speed&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Lowers increased priority skills to 0 for both sides.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Known_Limits" title="Known Limits"&gt;Known Limits&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Gives and receives less damage from skills that don't match the user's type.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Fast_Talker" title="Fast Talker"&gt;Fast Talker&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Two-turn skills can be used in one turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Full_Power" title="Full Power"&gt;Full Power&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Skills are 20% more powerful, but takes damage every turn.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Two_of_a_Kind" title="Two of a Kind"&gt;Two of a Kind&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The power of skills go down by 40%, but you will do an additional attack.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Affinity_Twist" title="Affinity Twist"&gt;Affinity Twist&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Both parties super effective and resisted elements are reversed.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Vision_Bonus" title="Vision Bonus"&gt;Vision Bonus&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Boosts the power of Illusion skills by 40%.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Invigorative" title="Invigorative"&gt;Invigorative&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Skills you're immune to will increase your Fo.Atk by one stage.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Deflective" title="Deflective"&gt;Deflective&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Skills you're immune to will increase your Fo.Def and Sp.Def by one stage.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Stimulative" title="Stimulative"&gt;Stimulative&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Skills you're immune to will increase your Sp.Atk by one stage.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Impulsive" title="Impulsive"&gt;Impulsive&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Skills you're immune to will increase your Speed by one stage.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Counter_Stance" title="Counter Stance"&gt;Counter Stance&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damages the attacker when hit with a BU skill.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Reflect_Guard" title="Reflect Guard"&gt;Reflect Guard&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Damages the attacker when hit with a EN skill.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Disjointed_Blow" title="Disjointed Blow"&gt;Disjointed Blow&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;The power of super effective attacks is increased by 40%.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Restraint" title="Restraint"&gt;Restraint&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;If the foe uses a switch-out skill,  they are unable to switch for 2 turns.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Bibliophilia" title="Bibliophilia"&gt;Bibliophilia&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When &lt;a href="/wiki/Extra_Kosuzu" title="Extra Kosuzu"&gt;Extra Kosuzu&lt;/a&gt; is holding a youma scroll, a certain stat is doubled, and typing and ability is changed.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Wariness" title="Wariness"&gt;Wariness&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Disables skills with 50 or less BP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Mode_Shift" title="Mode Shift"&gt;Mode Shift&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Changes &lt;a href="/wiki/Extra_Rika" title="Extra Rika"&gt;Extra Rika&lt;/a&gt;'s form when using attack skills. Reverts using Supernatural Border.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Reverse_Function" title="Reverse Function"&gt;Reverse Function&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Opponent's stat changes are reversed.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Dream_World" title="Dream World"&gt;Dream World&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Stopped opponents take damage every turn.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Three_Bodies" title="Three Bodies"&gt;Three Bodies&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href="/wiki/Extra_Hecatia" title="Extra Hecatia"&gt;Extra Hecatias&lt;/a&gt; Form changes based on the class of skills used.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Adverse_Wind" title="Adverse Wind"&gt;Adverse Wind&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Only Wind-type opponents can flee.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Poison_Labyrinth" title="Poison Labyrinth"&gt;Poison Labyrinth&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Only Poison-type opponents can flee.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Overcompensate" title="Overcompensate"&gt;Overcompensate&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Draining skills absorb 30% more HP.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Harassment" title="Harassment"&gt;Harassment&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;When your stats drop, so does the foe. When the foe's stats increase, your stats increase as well.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Mindless_Dance" title="Mindless Dance"&gt;Mindless Dance&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;2-3 turn skills have no special effects, but are 10% less powerful.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Final_Form" title="Final Form"&gt;Final Form&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;Boosts same-type skills when HP is less than 1/3.
+&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href="/wiki/Brute_Force" title="Brute Force"&gt;Brute Force&lt;/a&gt;&lt;/b&gt;
+&lt;/td&gt;
+&lt;td&gt;User is able to ignore the foe's ability, but unable to use items.
+&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+</root>

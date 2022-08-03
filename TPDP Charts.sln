@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPDP Charts", "TPDP Charts\TPDP Charts.csproj", "{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE85D662-FCCB-4264-A8FA-D6A2E6721B5A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Debug|x64.ActiveCfg = Debug|x64
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Debug|x64.Build.0 = Debug|x64
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Release|x64.ActiveCfg = Release|x64
+		{CC021579-4A1E-4CA9-A8EA-2AEC658CAD93}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25CA4833-0C03-420B-9009-5BE7464AE343}
+	EndGlobalSection
+EndGlobal
